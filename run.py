@@ -1,3 +1,6 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+# Read Word List
+def read_word_list(file_path='word-list.txt'):
+    # Read words from the specified file and return a list
+    with open(file_path, 'r') as file:
+        words = file.read().splitlines()
+    return words
