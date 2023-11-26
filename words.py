@@ -1,3 +1,4 @@
+import random
 
 # Easy Words
 word_list_easy = [
