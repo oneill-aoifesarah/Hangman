@@ -25,3 +25,11 @@ def play_hangman():
 
 # Display Hangman rules
     print("Rules: Suggest letters to guess the word.")
+
+# Selection of difficulty level
+    difficulty = input("Choose difficulty level (easy/medium/hard): ").lower()
+    word = get_word(difficulty)
+
+    if word is None:
+        print("Invalid entry. Exiting the game.")
+        return
