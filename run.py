@@ -23,6 +23,13 @@ def play_hangman():
     username = input("Enter your name: ")
     print(f"Hi, {username}. Let's play Hangman.")
 
+# Ask if the player is ready to play
+    ready_to_play = input("Are you ready to play? (y/n): ").lower()
+
+    if ready_to_play != 'y':
+        print("Ok, maybe next time. Bye for now!")
+        return
+
 # Display Hangman rules
     print("Rules: Suggest letters to guess the word.")
 
