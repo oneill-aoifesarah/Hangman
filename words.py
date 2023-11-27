@@ -1,5 +1,3 @@
-import random
-
 # Easy Words
 word_list_easy = [
     "dog", "cat", "sun", "hat", "run",

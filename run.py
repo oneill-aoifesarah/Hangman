@@ -1,6 +1,4 @@
-# Read Word List
-def read_word_list(file_path='word-list.txt'):
-    # Read words from the specified file and return a list
-    with open(file_path, 'r') as file:
-        words = file.read().splitlines()
-    return words
+import random
+from words import word_list_easy, word_list_medium, word_list_hard
+
+
