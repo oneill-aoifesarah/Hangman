@@ -20,5 +20,8 @@ def get_word(difficulty):
 
 def play_hangman():
     print("Welcome to Hangman!")
-    username = input("Enter your username: ")
-    print(f"Hello, {username}! Let's play Hangman.")
+    username = input("Enter your name: ")
+    print(f"Hi, {username}. Let's play Hangman.")
+
+# Display Hangman rules
+    print("Rules: Suggest letters to guess the word.")
